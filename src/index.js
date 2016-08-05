@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import vastApp from './reducers';
 import App from './components/App';
+import 'index.css';
 
 let store = createStore(vastApp);
 
